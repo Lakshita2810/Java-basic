@@ -1,0 +1,36 @@
+function one(){
+    const username = "lakshu"
+    function two() {
+        const website = "youtube"
+        console.log(username);
+}
+// console.log(website);
+
+two()
+}
+// one()
+
+if (true) {
+    const username = "lakshu"
+    if (username === "lakshu") {
+        const website = "youtube"
+        console.log(username + website);
+        
+    }
+    // console.log(website);   
+}
+
+//  +++++++++++++++++++++ interesting ++++++++++++++++++++++++++++++++++++++++
+console.log(addone(5));
+
+function addone(num){
+    return num + 1
+}
+
+
+
+const addTwo = function(num){
+    return num + 2
+}
+
+addTwo(5)
